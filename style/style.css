@@ -1,0 +1,113 @@
+.primarycolor {
+    background-color: #0064C1;
+    color: white;
+}
+
+.secondarycolor {
+    background-color: #8CA0A9;
+    color: white;
+}
+.secondary-darkcolor {
+    background-color: #4c6069;
+    color: white;
+}
+
+.customcolor {
+    background-color: #00C5B9;
+    color: white;
+}
+
+input,
+button,
+textarea {
+    background-color: #afadad;
+    color: black;
+    border: none;
+}
+
+button {
+    width: 250px;
+}
+
+button:hover,
+input:focus,
+textarea:focus {
+    background-color: lightslategray;
+    color: white;
+}
+
+button:active {
+    transform: translateY(5px);
+}
+
+.signup {
+    background-color: #ffffff;
+    color: black;
+    height: 100%;
+}
+
+
+.uploadbutton {
+    width: 215px;
+    height: 215px;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+}
+
+.image-upload>input {
+    display: none;
+}
+
+footer {
+    width: 100%;
+}
+
+#check {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputfields {
+    background-color: #ffffff;
+    color: black;
+    border: none;
+}
+
+#hermansubmit {
+    display: flex;
+    background-color: #00C5B9;
+    width: 40%;
+    justify-content: center;
+}
+
+.flip {
+    transform: scaleX(-1);
+}
+
+.custombanner {
+    background-color: #00C5B9;
+    width: 100%;
+}
+
+.bannerimages {
+    width: 250px;
+    height: 250px;
+}
+
+.opdrachtkaart{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 4.1%;
+    border-radius: 5%;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.filters{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
